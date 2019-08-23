@@ -8,7 +8,7 @@
 
 neil = Astronaut.create(name: "Neil Armstrong", age: 37, job: "Commander")
 other_astronaut = Astronaut.create(name: "Not Neil Armstrong", age: 45, job: "Commander 2")
-apollo_13 = neil.missions.create(title: "Apollo 13", time_in_space: 120)
 cap_4 = neil.missions.create(title: "Capricorn 4", time_in_space: 220)
-apollo_15 = other_astronaut.missions.create(title: "Apollo 15", time_in_space: 560)
+apollo_13 = neil.missions.create(title: "Apollo 13", time_in_space: 120)
 cap_12 = other_astronaut.missions.create(title: "Capricorn 12", time_in_space: 123)
+apollo_15 = other_astronaut.missions.create(title: "Apollo 15", time_in_space: 560)
